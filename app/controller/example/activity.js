@@ -1,6 +1,6 @@
-const response = require('../../util/response.js');
-const validator = require('../../util/requestValidator.js');
-const activityValidation = require('../validation/activity.js');
+const response = require('../../../util/response.js');
+const validator = require('../../../util/requestValidator.js');
+const activityValidation = require('../../validation/example/activity.js');
 const Mock = require('mockjs');
 
 module.exports = {

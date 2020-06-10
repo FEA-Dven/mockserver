@@ -1,5 +1,5 @@
 const Router = require('koa-router');
-const activityController = require('../controller/activity.js');
+const activityController = require('../controller/example/activity.js');
 
 module.exports = function() {
     let router = new Router();
