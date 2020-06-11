@@ -1,10 +1,10 @@
 const Router = require('koa-router');
-const activityController = require('../controller/example/activity.js');
+const activityController = require('../../controller/example/activity.js');
 
 module.exports = function() {
     let router = new Router();
 
-    // 用户登录
+    // 获取默认活动配置
     router.get('/activity-parcel-service/parcel/lottery/getDefaultActivityId', activityController.getDefaultActivity);
 
     // 获取记录列表

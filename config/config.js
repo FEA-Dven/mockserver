@@ -29,7 +29,7 @@ var config = {
      * 应用要加载的路由配置
      */
     "routes": [
-        './app/route/index.js'
+        './app/route/example/index.js'
     ]
 };
 
